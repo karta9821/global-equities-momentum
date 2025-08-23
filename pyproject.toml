@@ -20,7 +20,7 @@ __description__ = "Dual Momentum Investing Strategy Tool"
 '''
 
 [project]
-name = "gem"
+name = "global-equity-momentum"
 dynamic = ["version"]
 description = "Dual Momentum Investing Strategy Tool"
 readme = "README.md"
@@ -39,9 +39,6 @@ dependencies = [
     "seaborn>=0.13.2",
     "yfinance>=0.2.65",
 ]
-
-[project.scripts]
-gem = "gem.__main__:app"
 
 [project.urls]
 Repository = "https://github.com/karta9821/global-equity-momentum"

@@ -2,12 +2,10 @@
 Momentum calculation module.
 """
 
-import logging
 from typing import cast
 
 import pandas as pd
-
-logger = logging.getLogger(__name__)
+from loguru import logger
 
 
 class MomentumCalculator:

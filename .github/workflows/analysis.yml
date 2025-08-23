@@ -45,7 +45,7 @@ jobs:
 
     - name: Create HTML report
       run: |
-        cat > output/index.html << 'EOF'
+        cat > output/index.html << EOF
         <!DOCTYPE html>
         <html lang="en">
         <head>
