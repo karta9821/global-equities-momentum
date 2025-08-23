@@ -11,6 +11,12 @@ A professional dual momentum investing strategy tool built with Python, featurin
 - **Python 3.13+** (required for modern type hints and features)
 - **pip** or **uv** package manager (uv recommended for faster dependency resolution)
 
+### Ticker Compatibility
+
+**⚠️ Important**: This tool only works with ticker symbols that are compatible with Yahoo Finance.
+
+You can verify ticker compatibility by checking if the symbol exists on [Yahoo Finance](https://finance.yahoo.com/).
+
 ### Installation
 
 ```bash
@@ -48,12 +54,12 @@ I recommend forking this repository to run it on your own GitHub Actions and cus
 
 ### 1. Fork the Repository
 
-1. Go to [https://github.com/karta9821/gem](https://github.com/karta9821/gem)
+1. Go to [https://github.com/karta9821/global-equity-momentum](https://github.com/karta9821/global-equity-momentum)
 2. Click the "Fork" button in the top-right corner
 3. Clone your forked repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/gem.git
+   git clone https://github.com/YOUR_USERNAME/global-equity-momentum.git
    cd gem
    ```
 
