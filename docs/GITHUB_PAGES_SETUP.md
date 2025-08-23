@@ -5,6 +5,7 @@ This repository is configured to automatically deploy analysis results to GitHub
 ## What it does
 
 The workflow (`/.github/workflows/analysis.yml`) automatically:
+
 1. Runs monthly momentum analysis on the 1st day of each month
 2. Generates a PNG chart
 3. Creates a beautiful HTML report
@@ -25,6 +26,7 @@ To enable this functionality, you need to:
 ### 2. Repository Permissions
 
 The workflow requires these permissions:
+
 - `contents: write` - to commit results
 - `pages: write` - to deploy to GitHub Pages
 - `id-token: write` - for authentication
@@ -52,6 +54,7 @@ Once deployed, your analysis will be available at:
 ## Customization
 
 You can modify the HTML template in the workflow file to:
+
 - Change the styling
 - Add more information
 - Include additional charts or data
@@ -60,6 +63,7 @@ You can modify the HTML template in the workflow file to:
 ## Troubleshooting
 
 If the workflow fails:
+
 1. Check the Actions tab for error details
 2. Ensure GitHub Pages is enabled
 3. Verify repository permissions
