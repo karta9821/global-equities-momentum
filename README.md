@@ -50,6 +50,14 @@ gem --mode validate --symbols EIMI.L IWDA.L
 gem --help
 ```
 
+## 🌐 View Current Analysis
+
+You can view the latest GEM analysis results directly in your browser without installing anything:
+
+**[📊 View Current GEM Analysis](https://karta9821.github.io/global-equity-momentum/)**
+
+The GitHub Pages site is automatically updated with the latest analysis results, showing current momentum rankings and charts for global equity markets.
+
 ## 🍴 Fork and Run Locally
 
 I recommend forking this repository to run it on your own GitHub Actions and customize it for your needs.
