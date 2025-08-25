@@ -65,11 +65,34 @@ jobs:
                     padding: 30px;
                     border-radius: 10px;
                     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                    position: relative;
+                }
+                .profile-pic {
+                    top: 20px;
+                    right: 20px;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    border: 3px solid #007bff;
+                    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+                    transition: transform 0.2s ease, box-shadow 0.2s ease;
+                }
+                .profile-pic:hover {
+                    transform: scale(1.1);
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                    cursor: pointer;
+                }
+                .profile-link {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    text-decoration: none;
                 }
                 h1 {
                     color: #333;
                     text-align: center;
                     margin-bottom: 30px;
+                    margin-right: 80px;
                 }
                 .chart-container {
                     text-align: center;
@@ -91,6 +114,9 @@ jobs:
         </head>
         <body>
             <div class="container">
+                <a href="https://github.com/karta9821" target="_blank" class="profile-link">
+                    <img src="https://avatars.githubusercontent.com/karta9821?s=96&v=4" alt="Profile Picture" class="profile-pic">
+                </a>
                 <h1>Monthly Dual Momentum Analysis</h1>
                 <div class="chart-container">
                     <img src="monthly_momentum_analysis.png" alt="Monthly Momentum Analysis Chart">
