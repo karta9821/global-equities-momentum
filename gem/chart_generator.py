@@ -114,7 +114,7 @@ class ChartGenerator:
         company_name = self.get_symbol_label(best_symbol)
         recommendation_text = (
             f"CURRENT RECOMMENDATION: {company_name} ({best_symbol})\n"
-            f"Based on Global Equity Momentum (GEM) strategy with 12-month lookback and 1-month skip"
+            f"Based on Global Equities Momentum (GEM) strategy with 12-month lookback and 1-month skip"
         )
 
         fig.text(
