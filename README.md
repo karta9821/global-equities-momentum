@@ -1,4 +1,4 @@
-# GEM - Global Equity Momentum
+# GEM - Global Equities Momentum
 
 A professional dual momentum investing strategy tool built with Python, featuring robust configuration management, CLI interface, and comprehensive financial analysis capabilities.
 
@@ -23,8 +23,8 @@ You can verify ticker compatibility by checking if the symbol exists on [Yahoo F
 
 ```bash
 # Clone the repository
-git clone https://github.com/karta9821/global-equity-momentum.git
-cd global-equity-momentum
+git clone https://github.com/karta9821/global-equities-momentum.git
+cd global-equities-momentum
 
 # Install with uv (recommended)
 uv sync
@@ -54,9 +54,9 @@ gem --help
 
 You can view the latest GEM analysis results directly in your browser without installing anything:
 
-**[📊 View Current GEM Analysis](https://karta9821.github.io/global-equity-momentum/)**
+**[📊 View Current GEM Analysis](https://karta9821.github.io/global-equities-momentum/)**
 
-The GitHub Pages site is automatically updated with the latest analysis results, showing current momentum rankings and charts for global equity markets.
+The GitHub Pages site is automatically updated with the latest analysis results, showing current momentum rankings and charts for global stock markets.
 
 ## 🍴 Fork and Run Locally
 
@@ -64,12 +64,12 @@ I recommend forking this repository to run it on your own GitHub Actions and cus
 
 ### 1. Fork the Repository
 
-1. Go to [https://github.com/karta9821/global-equity-momentum](https://github.com/karta9821/global-equity-momentum)
+1. Go to [https://github.com/karta9821/global-equities-momentum](https://github.com/karta9821/global-equities-momentum)
 2. Click the "Fork" button in the top-right corner
 3. Clone your forked repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/global-equity-momentum.git
+   git clone https://github.com/YOUR_USERNAME/global-equities-momentum.git
    cd gem
    ```
 
