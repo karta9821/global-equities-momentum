@@ -20,7 +20,7 @@ __description__ = "Dual Momentum Investing Strategy Tool"
 '''
 
 [project]
-name = "global-equity-momentum"
+name = "global-equities-momentum"
 dynamic = ["version"]
 description = "Dual Momentum Investing Strategy Tool"
 readme = "README.md"
@@ -41,8 +41,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/karta9821/global-equity-momentum"
-Homepage = "https://github.com/karta9821/global-equity-momentum"
+Repository = "https://github.com/karta9821/global-equities-momentum"
+Homepage = "https://github.com/karta9821/global-equities-momentum"
 
 [dependency-groups]
 dev = [

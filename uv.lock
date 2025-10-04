@@ -269,7 +269,7 @@ wheels = [
 ]
 
 [[package]]
-name = "global-equity-momentum"
+name = "global-equities-momentum"
 source = { editable = "." }
 dependencies = [
     { name = "loguru" },
